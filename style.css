@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -5,32 +7,131 @@
 }
 
 header {
-  border: solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 15vh;
+  font-family: "oswald";
 }
 header h2 {
   font-size: 2.5rem;
   font-weight: 700;
 }
 header nav {
-  width: 40%;
-  border: solid green;
+  width: 30%;
 }
 header ul {
+  width: 45vh;
   display: flex;
   justify-content: space-evenly;
   list-style: none;
+}
+header li {
+  color: #5B5B5B;
+  margin-left: 135px;
 }
 header a {
   text-decoration: none;
   font-size: 1.5rem;
 }
 header button {
-  border: solid;
-  width: 18%;
+  border: solid black;
+  width: 7%;
+  height: 7vh;
+  font-size: 24px;
+  font-family: Oswald;
+  background-color: transparent;
+}
+
+main section {
+  background-image: url("./Imagens/background.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 91vh;
+}
+main section h1 {
+  font-weight: 700;
+  font-size: 100px;
+  color: white;
+  margin-left: 8%;
+  text-align: start;
+  font-family: Oswald;
+}
+main section h2 {
+  font-weight: 300;
+  font-size: 32px;
+  color: white;
+  margin-left: 8%;
+  text-align: start;
+}
+main section button {
+  background-color: #0016DF;
+  width: 10vw;
   height: 5vh;
-  font-size: 1.5;
+  margin-left: 9%;
+  margin-top: 2%;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+  font-family: Oswald;
+}
+
+article {
+  height: 130vh;
+  width: 98vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+article h3 {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: Oswald;
+  color: #0017E9;
+  margin-right: 50%;
+  margin-top: 15%;
+}
+article h2 {
+  height: 15vh;
+  width: 18%;
+  font-weight: 800;
+  font-size: 36px;
+  font-family: Roboto;
+  color: black;
+  margin-right: 45%;
+  margin-top: 1%;
+}
+article img {
+  height: 15vh;
+  width: 679px;
+  height: 783px;
+  margin-left: 64%;
+  margin-top: -35%;
+}
+article p {
+  height: 55vh;
+  width: 24%;
+  margin-right: 40%;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: Roboto;
+}
+article a {
+  font-weight: 400;
+  font-size: 24px;
+  color: #0017E9;
+  font-family: Roboto;
+  margin-right: 55%;
+  margin-top: 3%;
+  text-decoration: none;
+}
+
+.NossasSoluções {
+  border: color grey;
 }/*# sourceMappingURL=style.css.map */
